@@ -3,10 +3,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import "../styles/NavigationBar.css";
 
 function NavigationBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="navbar-color">
       <Container>
         <Navbar.Brand href="#home">Myro Joy Lee</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

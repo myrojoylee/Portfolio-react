@@ -1,16 +1,15 @@
 import React from "react";
-// import Header from "./components/Header";
-import NavigationBar from "./components/NavigationBar";
-// import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 // import Project from "./components/Project";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <NavigationBar />
-      {/* <Header />
-      <Project />
-      <Footer /> */}
+      <Header />
+      {/* <Project /> */}
+      <Footer />
     </div>
   );
 }

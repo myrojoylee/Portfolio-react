@@ -1,0 +1,15 @@
+footer {
+  background-image: linear-gradient(
+      to left,
+      rgba(237, 233, 254, 0.2),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../assets/background_flowers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
