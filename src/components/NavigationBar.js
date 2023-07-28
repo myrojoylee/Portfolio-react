@@ -2,25 +2,66 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "../styles/NavigationBar.css";
 
-function NavigationBar() {
+function NavigationBar({ currentPage, handlePageChange }) {
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar-color">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className="navbar-color navbar-wrapper"
+    >
       <Container>
-        <Navbar.Brand href="#home">Myro Joy Lee</Navbar.Brand>
+        <Navbar.Brand href="#home" className="full-name">
+          Myro Joy Lee
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="">About Me</Nav.Link>
-            <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="">Project 1</NavDropdown.Item>
-              <NavDropdown.Item href="">Project 2</NavDropdown.Item>
-              <NavDropdown.Item href="">Project 3</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="">Contact</Nav.Link>
-            <Nav.Link href="">Resume</Nav.Link>
+        <Navbar.Collapse id="responsive-navbar-nav" className="align-self-end">
+          <Nav className="ms-auto" variant="tabs" defaultActiveKey="/aboutme">
+            <Nav.Link
+              href="#aboutme"
+              onClick={() => handlePageChange("AboutMe")}
+              className={
+                currentPage === "AboutMe"
+                  ? "nav-link active navbar-gradient"
+                  : "nav-link navbar-gradient"
+              }
+            >
+              About Me
+            </Nav.Link>
+            <Nav.Link
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "Portfolio"
+                  ? "nav-link active navbar-gradient"
+                  : "nav-link navbar-gradient"
+              }
+            >
+              Portfolio
+            </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact"
+                  ? "nav-link active navbar-gradient"
+                  : "nav-link navbar-gradient"
+              }
+            >
+              Contact
+            </Nav.Link>
+            <Nav.Link
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume"
+                  ? "nav-link active navbar-gradient"
+                  : "nav-link navbar-gradient"
+              }
+            >
+              Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

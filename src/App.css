@@ -1,6 +1,0 @@
-body {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(to right, #ede9fe, #e9d5ff, #d8b4fe);
-  min-height: 100vh;
-}
