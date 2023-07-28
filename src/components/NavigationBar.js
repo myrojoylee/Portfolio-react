@@ -1,17 +1,17 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../styles/NavigationBar.css";
 
 function NavigationBar({ currentPage, handlePageChange }) {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      className="navbar-color navbar-wrapper"
-    >
-      <Container>
+    <header>
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="navbar-color navbar-wrapper"
+      >
         <Navbar.Brand href="#home" className="full-name">
           Myro Joy Lee
         </Navbar.Brand>
@@ -64,8 +64,8 @@ function NavigationBar({ currentPage, handlePageChange }) {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </header>
   );
 }
 

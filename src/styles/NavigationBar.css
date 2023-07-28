@@ -1,3 +1,9 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar-gradient {
   color: #581c87;
   background-image: linear-gradient(90deg, #7e22ce 10%, #d8b4fe 50%),
@@ -19,5 +25,36 @@
 }
 
 .full-name {
-  font-size: 2.25em;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.detail-wrapper {
+  background-color: red;
+}
+
+.detail {
+  display: flex;
+  background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
+  height: fit-content;
+  padding: 1em;
+  gap: 1em;
+}
+
+/* about me */
+
+.detail-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.profile-pic {
+  display: flex;
+  width: 20vh;
 }

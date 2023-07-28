@@ -1,48 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1em;
+}
+
 .wrapper {
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  perspective: 10px;
+  height: 100%;
 }
 
 .navbar-wrapper {
-  background-image: linear-gradient(to right, #ede9fe, #e9d5ff, #d8b4fe);
-  padding: 0;
-  height: auto;
-  position: sticky;
-  top: 0;
-  width: 100%;
+  background-image: linear-gradient(to right, #ede9fe, #e9d5ffc7, #d8b4fec7);
+  padding: 0 0.5em;
 }
 
-header {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-one {
+  background-image: url("../assets/background_flowers_2.jpeg");
   height: 40vh;
-  transform-style: preserve-3d;
-  z-index: -1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.detail {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
-  min-height: 100vh;
+.section-two {
+  background-image: url("../assets/background_flowers.jpg");
+  height: 30vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  /* object-position: bottom; */
-  transform: translateZ(-10px) scale(3.25);
+footer {
+  background-image: linear-gradient(to right, #ede9fe, #e9d5ff, #d8b4fe);
+  padding: 1em;
 }
 
-@media (min-width: 1200px) {
-  .background {
-    object-fit: cover;
-    object-position: center;
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.5em;
+  }
+
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.5em;
+  }
+
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
