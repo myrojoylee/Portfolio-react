@@ -8,7 +8,7 @@ GIVEN a single-page application portfolio for a web developer
 
 WHEN I load the portfolio
 
-- [ ] THEN I am presented with a page containing a header, a section for content, and a footer
+- [x] THEN I am presented with a page containing a header, a section for content, and a footer
 - [x] WHEN I view the header
 - [x] THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 - [x] WHEN I view the navigation titles
@@ -29,5 +29,5 @@ WHEN I load the portfolio
 - [x] THEN I receive a notification if I have entered an invalid email address
 - [ ] WHEN I am presented with the Resume section
 - [ ] THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-- [ ] WHEN I view the footer
-- [ ] THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+- [x] WHEN I view the footer
+- [x] THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)

@@ -11,21 +11,21 @@ export default function AboutMe() {
       <article className="detail-text">
         <p>
           Hi, I'm Myro and I am a fullstack developer! I love making things look
-          nice and functional on the web. I also love solving problems and
+          amazing and functional on the web. I also love solving problems and
           helping others solve theirs.
         </p>
         <p>
           My first taste of coding came in college with a course in C++ and
-          MatLab. After graduating in Psychology, I left tech for a while and
-          had 2 wonderful children.
+          MatLab. A Psychology degree and a restaurant management experience
+          later, I am back in tech.
         </p>
         <p>
-          After my foray into restaurant business management, I decided to try
-          my hand again in tech and decided to enroll in a coding bootcamp at
-          UPenn.
+          I am currently in a coding bootcamp at the University of Pennsylvania
+          working on a certificate in fullstack web development.
         </p>
         <p>
-          Many debugging sessions later, I am still here and still loving it!
+          After many debugging sessions later, I am loving it more than ever! I
+          look forward to transforming your ideas into sustainable solutions.
         </p>
       </article>
     </section>

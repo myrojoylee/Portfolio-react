@@ -11,7 +11,6 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   const [errorMessage, setErrorMessage] = useState("");
-  const [touched, setTouched] = useState("");
 
   const handleInputChange = (e) => {
     setErrorMessage("");
@@ -26,22 +25,6 @@ function Contact() {
     } else {
       setMessage(inputValue);
     }
-
-    // if (touched) {
-    //   setErrorMessage("Name is required");
-    // }
-    // if (!message) {
-    //   setErrorMessage("Message is required");
-    // }
-
-    // if (!email) {
-    //   setErrorMessage("Email is required");
-    //   return;
-    // } else if (email !== "" && !validateEmail(email)) {
-    //   setErrorMessage("Email is invalid");
-    // } else {
-    //   setErrorMessage("");
-    // }
   };
 
   const handleName = (e) => {
@@ -109,6 +92,9 @@ function Contact() {
   return (
     <section className="contact-detail">
       <h1>Let's Chat!</h1>
+      <h3>
+        Fill out the form below and I will get back to you as soon as I can!
+      </h3>
       <article className="contact-form-wrapper">
         <Form>
           <Form.Group className="mb-3" controlId="formBasicText">
@@ -133,9 +119,7 @@ function Contact() {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formControlTextarea">
-            <Form.Label>
-              Send me a message and I will get back to you as soon as I can:
-            </Form.Label>
+            <Form.Label>A brief message:</Form.Label>
             <Form.Control
               as="textarea"
               placeholder="Enter message"
