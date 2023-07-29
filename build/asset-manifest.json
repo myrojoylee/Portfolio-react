@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.858400e1.css",
+    "main.js": "/static/js/main.43a3f95d.js",
+    "static/media/profile_pic_lavender.png": "/static/media/profile_pic_lavender.4de4dc35f83498a521eb.png",
+    "static/media/background_flowers_2.jpeg": "/static/media/background_flowers_2.c36bf7ba808b20123198.jpeg",
+    "static/media/background_flowers.jpg": "/static/media/background_flowers.a55417ef4485034860ac.jpg",
+    "static/media/Resume-bw-mjlee-2.pdf": "/static/media/Resume-bw-mjlee-2.d8fce2d4ada4805f3c93.pdf",
+    "index.html": "/index.html",
+    "main.858400e1.css.map": "/static/css/main.858400e1.css.map",
+    "main.43a3f95d.js.map": "/static/js/main.43a3f95d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.858400e1.css",
+    "static/js/main.43a3f95d.js"
+  ]
+}

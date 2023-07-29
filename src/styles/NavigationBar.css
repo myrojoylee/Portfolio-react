@@ -58,3 +58,13 @@ header {
   display: flex;
   width: 20vh;
 }
+
+@media only screen and (max-width: 768px) {
+  .detail {
+    flex-direction: column;
+  }
+
+  .detail-heading {
+    align-items: center;
+  }
+}
