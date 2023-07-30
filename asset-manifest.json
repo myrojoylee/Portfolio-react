@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.0f4d7e56.css",
-    "main.js": "/Portfolio-react/static/js/main.9f90deb9.js",
+    "main.css": "/Portfolio-react/static/css/main.0ab9273a.css",
+    "main.js": "/Portfolio-react/static/js/main.6f836c19.js",
     "static/media/profile_pic_lavender.png": "/Portfolio-react/static/media/profile_pic_lavender.4de4dc35f83498a521eb.png",
     "static/media/background_flowers_2.jpeg": "/Portfolio-react/static/media/background_flowers_2.c36bf7ba808b20123198.jpeg",
     "static/media/background_flowers.jpg": "/Portfolio-react/static/media/background_flowers.a55417ef4485034860ac.jpg",
@@ -13,11 +13,11 @@
     "static/media/note-worthy-editor.png": "/Portfolio-react/static/media/note-worthy-editor.ce46ceb39ad70b1cc683.png",
     "static/media/tic-tac-toe.png": "/Portfolio-react/static/media/tic-tac-toe.d562d1c22f2bbcf4e264.png",
     "index.html": "/Portfolio-react/index.html",
-    "main.0f4d7e56.css.map": "/Portfolio-react/static/css/main.0f4d7e56.css.map",
-    "main.9f90deb9.js.map": "/Portfolio-react/static/js/main.9f90deb9.js.map"
+    "main.0ab9273a.css.map": "/Portfolio-react/static/css/main.0ab9273a.css.map",
+    "main.6f836c19.js.map": "/Portfolio-react/static/js/main.6f836c19.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f4d7e56.css",
-    "static/js/main.9f90deb9.js"
+    "static/css/main.0ab9273a.css",
+    "static/js/main.6f836c19.js"
   ]
 }
