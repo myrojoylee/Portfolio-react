@@ -35,3 +35,7 @@ WHEN I load the portfolio
 ## Acknowledgments
 
 - Code to toggle classlist was sourced from [here](https://sabe.io/blog/react-toggle-class#:~:text=Simply%20create%20a%20boolean%20using,on%20the%20element%20you%20want.).
+
+- Code for card flip animations sourced from [here](https://marina-ferreira.github.io/tutorials/js/memory-game/).
+
+- Code for card hover transitions sourced from [here](https://www.sitepoint.com/css-box-shadow-animation-performance/).
