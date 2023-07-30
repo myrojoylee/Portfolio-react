@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.858400e1.css",
-    "main.js": "/static/js/main.43a3f95d.js",
-    "static/media/profile_pic_lavender.png": "/static/media/profile_pic_lavender.4de4dc35f83498a521eb.png",
-    "static/media/background_flowers_2.jpeg": "/static/media/background_flowers_2.c36bf7ba808b20123198.jpeg",
-    "static/media/background_flowers.jpg": "/static/media/background_flowers.a55417ef4485034860ac.jpg",
-    "static/media/Resume-bw-mjlee-2.pdf": "/static/media/Resume-bw-mjlee-2.d8fce2d4ada4805f3c93.pdf",
-    "index.html": "/index.html",
-    "main.858400e1.css.map": "/static/css/main.858400e1.css.map",
-    "main.43a3f95d.js.map": "/static/js/main.43a3f95d.js.map"
+    "main.css": "/portfolio-react/static/css/main.7c91ea4f.css",
+    "main.js": "/portfolio-react/static/js/main.bbd7b0d8.js",
+    "static/media/profile_pic_lavender.png": "/portfolio-react/static/media/profile_pic_lavender.4de4dc35f83498a521eb.png",
+    "static/media/background_flowers_2.jpeg": "/portfolio-react/static/media/background_flowers_2.c36bf7ba808b20123198.jpeg",
+    "static/media/background_flowers.jpg": "/portfolio-react/static/media/background_flowers.a55417ef4485034860ac.jpg",
+    "static/media/end-world-thirst.png": "/portfolio-react/static/media/end-world-thirst.e3da70433d588de13271.png",
+    "static/media/lord-of-the-pies.png": "/portfolio-react/static/media/lord-of-the-pies.d5774dd198387f44ecb3.png",
+    "static/media/panda-bytes-blog.png": "/portfolio-react/static/media/panda-bytes-blog.dd533d8c5547e3a488cc.png",
+    "static/media/Resume-bw-mjlee-2.pdf": "/portfolio-react/static/media/Resume-bw-mjlee-2.d8fce2d4ada4805f3c93.pdf",
+    "static/media/weather-dashboard.png": "/portfolio-react/static/media/weather-dashboard.f4539842165f0db55a85.png",
+    "static/media/note-worthy-editor.png": "/portfolio-react/static/media/note-worthy-editor.ce46ceb39ad70b1cc683.png",
+    "static/media/tic-tac-toe.png": "/portfolio-react/static/media/tic-tac-toe.d562d1c22f2bbcf4e264.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.7c91ea4f.css.map": "/portfolio-react/static/css/main.7c91ea4f.css.map",
+    "main.bbd7b0d8.js.map": "/portfolio-react/static/js/main.bbd7b0d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.858400e1.css",
-    "static/js/main.43a3f95d.js"
+    "static/css/main.7c91ea4f.css",
+    "static/js/main.bbd7b0d8.js"
   ]
 }
