@@ -104,8 +104,13 @@ header {
   width: 100%;
 }
 
+.project-link-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
 .project-link {
-  cursor: pointer;
-  border-bottom: 1px solid grey;
+  background-color: rgb(205, 203, 203);
   width: fit-content;
 }

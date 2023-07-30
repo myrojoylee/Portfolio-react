@@ -4,6 +4,10 @@ import "../styles/Project.css";
 function ProjectCard({ card: { back, front, link, repo } }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  const handleChildClick = (e) => {
+    e.stopPropagation();
+  };
+
   return (
     <div className="main-card">
       <div
@@ -14,12 +18,14 @@ function ProjectCard({ card: { back, front, link, repo } }) {
           <p>Title: {back.title}</p>
           <p>Details: {back.description}</p>
           <p>Technologies: {back.technologies}</p>
-          <a className="project-link" href={link}>
-            Link to deployed app
-          </a>
-          <a className="project-link" href={repo}>
-            Link to GitHub repo
-          </a>
+          <div className="project-link-group">
+            <a onClick={handleChildClick} href={link}>
+              <button className="project-link">Link to deployed app</button>
+            </a>
+            <a onClick={handleChildClick} href={repo}>
+              <button className="project-link">Link to GitHub repo</button>
+            </a>
+          </div>
         </div>
 
         <div className="card-face card-front">
