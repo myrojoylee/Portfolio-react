@@ -1,22 +1,26 @@
-import React, { useState } from "react";
-import Dino from "../assets/trex.jpeg";
+import React from "react";
+import ProjectCard from "./ProjectCard";
 import "../styles/Project.css";
+import Dino from "../assets/trex.jpeg";
 
+const projectCards = [
+  {
+    id: "1",
+    back: Dino,
+    front: { description: "this is a dino" },
+  },
+  {
+    id: "2",
+    back: Dino,
+    front: { description: "this is an identical dino!" },
+  },
+];
 function Project() {
-  const [isFlipped, setIsFlipped] = useState(false);
-
   return (
-    <div className="main-card">
-      <div
-        onClick={() => setIsFlipped(!isFlipped)}
-        className={isFlipped ? "is-flipped game-card" : "game-card"}
-      >
-        <div className="card-face card-front">?</div>
-
-        <div className="card-face card-back">
-          <img className="trex-img" src={Dino} alt="" />
-        </div>
-      </div>
+    <div className="project-card-group">
+      {projectCards.map((card) => (
+        <ProjectCard key={card.id} card={card} />
+      ))}
     </div>
   );
 }
