@@ -20,13 +20,8 @@ p {
   font-size: 1em;
 }
 
-.wrapper {
+.root {
   height: 100%;
-}
-
-.navbar-wrapper {
-  background-image: linear-gradient(to right, #ede9fe, #e9d5ffc7, #d8b4fec7);
-  padding: 1em 1em 0;
 }
 
 .section-one {
@@ -43,16 +38,6 @@ p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-footer {
-  display: flex;
-  font-size: 2.5em;
-  justify-content: center;
-  gap: 1em;
-  background-image: linear-gradient(to right, #ede9fe, #e9d5ff, #d8b4fe);
-  padding: 0.5em;
-  color: black;
 }
 
 @media only screen and (min-width: 1200px) {

@@ -1,7 +1,44 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
+  height: fit-content;
+  padding: 1em;
+  gap: 1em;
+}
+
 .resume-detail {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(to right, #d8b4fe, #e9d5ff, #ede9fe);
-  height: 30vh;
-  padding: 1em;
+  height: fit-content;
+  gap: 1em;
+}
+
+.resume-list {
+  display: flex;
+  gap: 10em;
+}
+
+button {
+  border: none;
+  background-color: #ede9fe;
+  border-radius: 0.25em;
+  padding: 0 0.25em;
+}
+
+button:hover {
+  background-color: #e9d5ff;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .resume {
+    gap: 2em;
+  }
+  .resume-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
 }

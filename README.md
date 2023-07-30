@@ -31,3 +31,7 @@ WHEN I load the portfolio
 - [ ] THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 - [x] WHEN I view the footer
 - [x] THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
+## Acknowledgments
+
+- Code to toggle classlist was sourced from [here](https://sabe.io/blog/react-toggle-class#:~:text=Simply%20create%20a%20boolean%20using,on%20the%20element%20you%20want.).

@@ -1,7 +1,6 @@
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.navbar-wrapper {
+  background-image: linear-gradient(to right, #ede9fe, #e9d5ffc7, #d8b4fec7);
+  padding: 1em 1em 0;
 }
 
 .navbar-gradient {
@@ -46,6 +45,7 @@ header {
 .detail-heading {
   display: flex;
   flex-direction: column;
+  width: 30%;
 }
 
 .detail-text {
@@ -65,6 +65,7 @@ header {
   }
 
   .detail-heading {
+    width: 100%;
     align-items: center;
   }
 }
